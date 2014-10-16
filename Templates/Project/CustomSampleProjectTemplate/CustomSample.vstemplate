@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
     <Name>Sample with Wizard</Name>
-    <Description>A sample template</Description>
+    <Description>A sample template which uses a custom wizard</Description>
     <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4547" />
     <TemplateID>VsixWizardSample.CustomSampleProject</TemplateID>
     <ProjectType>CSharp</ProjectType>
@@ -18,4 +18,11 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Class1.cs">Class1.cs.template</ProjectItem>
     </Project>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>Sample.TemplateWizards</Assembly>
+    <FullClassName>Sample.TemplateWizards.MyWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <Message>Show this message during creation.</Message>
+  </WizardData>
 </VSTemplate>
