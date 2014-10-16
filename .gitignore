@@ -1,0 +1,11 @@
+# Per-user files
+*.sln.ide/
+*.suo
+*.csproj.user
+
+# NuGet packages
+packages/
+
+# Build output
+bin/
+obj/
