@@ -141,6 +141,15 @@
   <ItemGroup>
     <None Include="source.extension.vsixmanifest" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Templates\Project\CustomSampleProjectTemplate\CustomSampleProjectTemplate.csproj">
+      <Project>{4F9819A4-7370-4B20-818A-4D25707B4FCB}</Project>
+      <Name>CustomSampleProjectTemplate</Name>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Condition="Exists($(VsSdkTargets))" Project="$(VsSdkTargets)" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

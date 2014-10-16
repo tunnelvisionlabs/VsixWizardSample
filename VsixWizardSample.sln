@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.TemplateWizards", "Sample.TemplateWizards\Sample.TemplateWizards.csproj", "{DCA1A877-DC28-41C3-B279-9D0B862C659D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{1D40C837-A48D-4E32-9847-006B3AE5AAA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{9E9D59FE-1F72-4BC8-BBDD-25CB521725B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSampleProjectTemplate", "Templates\Project\CustomSampleProjectTemplate\CustomSampleProjectTemplate.csproj", "{4F9819A4-7370-4B20-818A-4D25707B4FCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +25,16 @@ Global
 		{DCA1A877-DC28-41C3-B279-9D0B862C659D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCA1A877-DC28-41C3-B279-9D0B862C659D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCA1A877-DC28-41C3-B279-9D0B862C659D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9819A4-7370-4B20-818A-4D25707B4FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9819A4-7370-4B20-818A-4D25707B4FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9819A4-7370-4B20-818A-4D25707B4FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9819A4-7370-4B20-818A-4D25707B4FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E9D59FE-1F72-4BC8-BBDD-25CB521725B3} = {1D40C837-A48D-4E32-9847-006B3AE5AAA6}
+		{4F9819A4-7370-4B20-818A-4D25707B4FCB} = {9E9D59FE-1F72-4BC8-BBDD-25CB521725B3}
 	EndGlobalSection
 EndGlobal
