@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="07A9BD01-C692-4DB9-B226-EF47E8639191" Version="1.0" Language="en-US" Publisher="Your Name" />
+    <DisplayName>Custom Project Templates Sample</DisplayName>
+    <Description xml:space="preserve">My very own custom project templates with a wizard.</Description>
+    <MoreInfo>https://github.com/tunnelvisionlabs/VsixWizardSample/blob/master/README.md</MoreInfo>
+    <License>LICENSE.txt</License>
+    <GettingStartedGuide>https://github.com/tunnelvisionlabs/VsixWizardSample/blob/master/README.md</GettingStartedGuide>
+    <Tags>vsix sample</Tags>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+  </Assets>
+</PackageManifest>
